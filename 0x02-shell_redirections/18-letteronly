@@ -1,1 +1,1 @@
-grep -i '^[a-z]'
+#!/bin/bashgrep -i '^[a-z]'
