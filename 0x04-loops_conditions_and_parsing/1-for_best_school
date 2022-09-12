@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
-for i in {1..10};
-do
-    echo "Best School"
-done
+displays "Best School" ten times
+for i in $(seq 1 10);
+	 for _ $(seq 1 10)
+	 do
+	     echo "Best School"
+	 done
+	 
+
