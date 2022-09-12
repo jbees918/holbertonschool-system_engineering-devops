@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-displays Best "school" ten times while loop
-i=1
+# while loop script that displays Best School ten times
 while [ "$((i++))" -le 10 ]
 do
 echo "Best School"
