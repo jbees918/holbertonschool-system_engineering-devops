@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# until loop that prints Best School ten times
-ul=1
-until [ $ul -gt 10 ]
+# until loop script to print Best School ten times
+i=1
+until [ $i -eq 10 ]
 do
 echo "Best School"
-((ul++))
+(( i++ ))
 done
