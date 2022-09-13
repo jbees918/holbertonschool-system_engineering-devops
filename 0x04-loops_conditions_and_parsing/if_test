@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if1=4
+
+echo -n "25: "
+read IF1
+
+if [[ $IF1 -gt 10 ]]
+then
+  echo "The variabe is greater than 10."
+fi

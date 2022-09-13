@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 # loop that prints Best School 10 times and adds hi on the ninth line
 
-i=0
-while [ $i -lt 10 ]
+count=0
+while [ $count -lt 10 ];
 do
+	if [ $count -eq 8 ]
+   then
+echo -e "Best School\nHi"
+else
 echo "Best School"
-if [ $i -eq 8 ]
-then
-echo "Hi"
 fi
-(( 1++ ))
+count=$((count +1))
 done
