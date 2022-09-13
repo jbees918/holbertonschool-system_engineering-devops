@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # loop that prints Best School 10 times and adds hi on the ninth line
 
-i=1
+i=0
 while [ $i -lt 10 ]
 do
 echo "Best School"
