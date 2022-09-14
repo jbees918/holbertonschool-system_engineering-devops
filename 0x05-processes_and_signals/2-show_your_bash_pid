@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# script to show lines containing bash word to get PID of processes
+
+ps axuf | grep "bash"
+
