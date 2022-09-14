@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/usr/bin/env bash
 # script to write "to infinity and beyond" indefinately with 2 second sleep between each iteration
 #
 # while true
