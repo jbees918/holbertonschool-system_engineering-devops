@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script that lists all current processes for all users even without TTYin user oriented format with process hierarchy
+
+ps -aux -ef
