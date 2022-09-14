@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # script to write "to infinity and beyond" indefinately with 2 second sleep between each iteration
-#
-# while true
+
+ while true
 do
 	echo "To infinity and beyond"
 	sleep 2
