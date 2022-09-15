@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script to kill SIGTERM signal
+
+pkill -f "7-highlander" -SIGKILL
