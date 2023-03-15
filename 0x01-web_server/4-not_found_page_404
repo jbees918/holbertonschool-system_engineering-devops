@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Update and Install nginx web server
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
+#Create Hello World html file
+mkdir -p /etc/nginx/html
